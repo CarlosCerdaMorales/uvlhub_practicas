@@ -1,5 +1,6 @@
 from app.modules.conftest import login, logout
 
+
 def test_list_empty_notepad_get(test_client):
     """
     Tests access to the empty notepad list via GET request.
